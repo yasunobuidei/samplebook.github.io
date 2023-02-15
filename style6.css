@@ -1,0 +1,672 @@
+a {
+    color:#999999 ;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #4d4d4d;;
+  }
+  #menu{width: 00px;
+    display: block; 
+    margin: auto;
+    position: absolute;
+    top:10px;
+    right:auto;}
+
+
+
+@media screen and (min-width:1200px) {
+ #logog{width: 300px;
+        display: block; 
+        margin: auto;
+     　　position:relative;}
+ #logow{width: 300px;
+        display: block; 
+        margin: auto;
+        position: absolute;
+        top:10px;
+        right:auto;}
+        #menu{width: 00px;
+            display: block; 
+            margin: auto;
+            position: absolute;
+            top:10px;
+            right:auto;}
+ 
+ h1{font-family: 'Noto Serif JP', serif;
+         font-size: 10px;
+         color:#999999;
+         text-align:left;
+         margin-top:0px;
+         margin-bottom:0px;
+    margin-left:35px;
+    line-height: 20px;}
+    h5{font-family: 'Noto Serif JP', serif;
+        font-size: 10px;
+        color:#999999;
+        text-align:left;
+        margin-top:-50px;
+        margin-bottom:30px;
+   margin-left:35px;
+   line-height: 20px;}
+    
+ 
+ h2{font-family: 'Noto Serif JP', serif;
+         font-size: 10px;
+         color:#999999;
+         text-align:left;
+         margin-top:20px;
+         margin-bottom:0px;
+         margin-left:100px;}
+     
+ h3{font-family: 'Noto Serif JP', serif;
+         font-size: 10px;
+         color:#999999;
+         text-align:left;
+         margin-top:10px;
+         margin-bottom:0px;
+         margin-left:120px;} 
+ h6{font-family: 'Noto Serif JP', serif;
+         font-size:10px;
+         color:#4D4D4D;
+         text-align:left;
+         margin-top:10px;
+         margin-bottom:0px;
+         margin-left:120px;} 
+       
+ h4{font-family: 'Noto Serif JP', serif;
+         font-size: 10px;
+         color:#999999;
+         text-align:right;
+         margin-top:100px;
+         margin-bottom:50px;
+         margin-right:100px;}  
+ 
+ .app {
+         width: 100vw;
+         height: 100vh;
+         display: flex;
+         flex-direction: column;
+           }        
+ .header {
+         height: 100px;
+         background-color: white;
+         box-sizing: border-box;
+         border:0px solid blue;
+         position: sticky;
+         top: 00px;
+            
+           }
+ 
+ .main {
+         display: flex;
+         flex-direction: row;
+         flex-grow:1;
+           }
+ 
+ .sidebar {
+         width:250px;
+         height:800px;
+         background-color: white;
+         box-sizing: border-box;
+         border: 0px solid chocolate;
+         position: sticky;
+         top: 100px;
+           }
+           .sidebar2 {
+             width: 250px;
+             height:800px;
+             background-color: white;
+             box-sizing: border-box;
+             border:0px solid chocolate;
+             position: sticky;
+             top: 100px;
+               }
+ .content {
+             background-color: white;
+             box-sizing: border-box;
+             border: 0px solid chocolate;
+         display: flex;
+         flex-direction: column;
+         flex-grow: 1;
+           }
+ .flex-content {
+         flex-grow: 1;
+         background-color:white;
+         box-sizing: border-box;
+         border: 0px solid green;
+         display: flex;
+         flex-direction: row;
+         margin-top: 40px;
+           }
+
+.naka {
+        flex-grow: 1;
+        background-color:white;
+        box-sizing: border-box;
+        border: 0px solid rgb(58, 75, 174);
+        display: flex;
+        flex-direction: row;
+        
+        }
+        #moji1{
+            width:60vw;
+            margin:auto;
+        
+        }
+.photo{
+        flex-grow: 1;
+        background-color:white;
+        box-sizing: border-box;
+        border: 0px solid rgb(131, 44, 64);
+        display: flex;
+        flex-direction: column;
+        }
+      
+ #zomushi{width: 10vw;
+     display: block; 
+     margin: auto;
+     margin-bottom: 5vw;
+ 
+ }
+ #gara2{width: 60vw;
+    display: block; 
+    margin: auto;
+    margin-bottom: 5vw;
+
+}
+
+ 
+ 
+ }
+ 
+ @media screen and (min-width:1000px) and ( max-width:1199px) {
+     #logog{width: 300px;
+         display: block; 
+         margin: auto;
+      　　position:relative;}
+  #logow{width: 300px;
+         display: block; 
+         margin: auto;
+         position: absolute;
+         top:10px;
+         right:auto;}
+         #menu{width: 00px;
+            display: block; 
+            margin: auto;
+            position: absolute;
+            top:10px;
+            right:auto;}
+  
+         h1{font-family: 'Noto Serif JP', serif;
+            font-size: 5px;
+            color:#999999;
+            text-align:left;
+            margin-top:0px;
+            margin-bottom:0px;
+       margin-left:10px;
+       line-height: 20px;}
+       h5{font-family: 'Noto Serif JP', serif;
+        font-size: 10px;
+        color:#999999;
+        text-align:left;
+        margin-top:-50px;
+        margin-bottom:30px;
+   margin-left:35px;
+   line-height: 20px;}
+       
+  
+  h2{font-family: 'Noto Serif JP', serif;
+          font-size: 10px;
+          color:#999999;
+          text-align:left;
+          margin-top:20px;
+          margin-bottom:0px;
+          margin-left:50px;}
+      
+  h3{font-family: 'Noto Serif JP', serif;
+          font-size: 10px;
+          color:#999999;
+          text-align:left;
+          margin-top:10px;
+          margin-bottom:0px;
+          margin-left:70px;} 
+    h6{font-family: 'Noto Serif JP', serif;
+            font-size: 10px;
+            color:#4D4D4D;
+            text-align:left;
+            margin-top:10px;
+            margin-bottom:0px;
+            margin-left:70px;} 
+   
+  h4{font-family: 'Noto Serif JP', serif;
+          font-size: 10px;
+          color:#999999;
+          text-align:right;
+          margin-top:100px;
+          margin-bottom:50px;
+          margin-right:100px;}  
+  
+  .app {
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+            }        
+  .header {
+          height: 100px;
+          background-color: white;
+          box-sizing: border-box;
+          border: 0px solid blue;
+          position: sticky;
+          top: 00px;
+             
+            }
+  
+  .main {
+          display: flex;
+          flex-direction: row;
+          flex-grow:1;
+            }
+  
+  .sidebar {
+          width: 190px;
+          height:800px;
+          background-color: white;
+          box-sizing: border-box;
+          border: 0px solid chocolate;
+          position: sticky;
+          top: 100px;
+            }
+            .sidebar2 {
+             width: 190px;
+             height:800px;
+             background-color: white;
+             box-sizing: border-box;
+             border: 0px solid chocolate;
+             position: sticky;
+             top: 100px;
+               }
+               .content {
+                background-color: white;
+                box-sizing: border-box;
+                border: 0px solid chocolate;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+              }
+    .flex-content {
+            flex-grow: 1;
+            background-color:white;
+            box-sizing: border-box;
+            border: 0px solid green;
+            display: flex;
+            flex-direction: row;
+            margin-top: 40px;
+              }
+   
+   .naka {
+           flex-grow: 1;
+           background-color:white;
+           box-sizing: border-box;
+           border: 0px solid rgb(58, 75, 174);
+           display: flex;
+           flex-direction: row;
+           
+           }
+           #moji1{
+            width:60vw;
+            margin:auto;
+        
+        }
+   .photo{
+           flex-grow: 1;
+           background-color:white;
+           box-sizing: border-box;
+           border: 0px solid rgb(131, 44, 64);
+           display: flex;
+           flex-direction: column;
+           }
+   
+  #zomushi{width: 10vw;
+      display: block; 
+      margin: auto;
+      margin-bottom: 40px;
+  
+  }
+  #gara2{width: 60vw;
+    display: block; 
+    margin: auto;
+    margin-bottom: 5vw;
+
+}
+ 
+  
+ }
+ 
+ @media screen and (min-width:767px) and ( max-width:999px) {
+     #logog{width: 300px;
+         display: block; 
+         margin: auto;
+      　　position:relative;}
+  #logow{width: 300px;
+         display: block; 
+         margin: auto;
+         position: absolute;
+         top:10px;
+         right:auto;}
+         #menu{width: 00px;
+            display: block; 
+            margin: auto;
+            position: absolute;
+            top:10px;
+            right:auto;}
+  
+  h1{font-family: 'Noto Serif JP', serif;
+          font-size: 10px;
+          color:#999999;
+          text-align:left;
+          margin-top:0px;
+          margin-bottom:0px;
+          margin-left: 10px;
+          line-height: 20px;}
+          h5{font-family: 'Noto Serif JP', serif;
+            font-size: 10px;
+            color:#999999;
+            text-align:left;
+            margin-top:-50px;
+            margin-bottom:30px;
+       margin-left:35px;
+       line-height: 20px;}
+  
+  h2{font-family: 'Noto Serif JP', serif;
+          font-size: 10px;
+          color:#999999;
+          text-align:left;
+          margin-top:20px;
+          margin-bottom:0px;
+          margin-left:20px;}
+      
+  h3{font-family: 'Noto Serif JP', serif;
+          font-size: 10px;
+          color:#999999;
+          text-align:left;
+          margin-top:10px;
+          margin-bottom:0px;
+          margin-left:30px;} 
+          h6{font-family: 'Noto Serif JP', serif;
+            font-size: 10px;
+            color:#4D4D4D;
+            text-align:left;
+            margin-top:10px;
+            margin-bottom:0px;
+            margin-left:30px;} 
+  h4{font-family: 'Noto Serif JP', serif;
+          font-size: 10px;
+          color:#999999;
+          text-align:right;
+          margin-top:100px;
+          margin-bottom:50px;
+          margin-right:100px;}  
+  
+  .app {
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+            }        
+  .header {
+          height: 100px;
+          background-color: white;
+          box-sizing: border-box;
+          border: 0px solid blue;
+          position: sticky;
+          top: 00px;
+             
+            }
+  
+  .main {
+          display: flex;
+          flex-direction: row;
+          flex-grow:1;
+            }
+  
+  .sidebar {
+          width:150px;
+          height:800px;
+          background-color: white;
+          box-sizing: border-box;
+          border: 0px solid chocolate;
+          position: sticky;
+          top: 100px;
+            }
+            .sidebar2 {
+             width: 0px;
+             height:0px;
+             background-color: white;
+             box-sizing: border-box;
+             border: 0px solid chocolate;
+             position: sticky;
+             top: 100px;
+               }
+               .content {
+                background-color: white;
+                box-sizing: border-box;
+                border: 0px solid chocolate;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+              }
+    .flex-content {
+            flex-grow: 1;
+            background-color:white;
+            box-sizing: border-box;
+            border: 0px solid green;
+            display: flex;
+            flex-direction: row;
+            margin-top: 40px;
+              }
+   
+   .naka {
+           flex-grow: 1;
+           background-color:white;
+           box-sizing: border-box;
+           border: 0px solid rgb(58, 75, 174);
+           display: flex;
+           flex-direction: row;
+           
+           }
+           #moji1{
+            width:60vw;
+            margin:auto;
+        
+        }
+   .photo{
+           flex-grow: 1;
+           background-color:white;
+           box-sizing: border-box;
+           border: 0px solid rgb(131, 44, 64);
+           display: flex;
+           flex-direction: column;
+           }
+         
+  #zomushi{width:15vw;
+      display: block; 
+      margin: auto;
+      margin-bottom: 10vw;
+  
+  }
+  #gara2{width: 60vw;
+    display: block; 
+    margin: auto;
+    margin-bottom: 5vw;
+
+}
+  
+  
+ }
+ 
+ @media screen  and ( max-width:768px) {
+ 
+     
+     #logog{width: 300px;
+         display: block; 
+         margin: auto;
+      　　position:relative;}
+  #logow{width: 00px;
+         display: block; 
+         margin: auto;
+         position: absolute;
+         top:10px;
+         left:100px;}
+         #menu{width: 40px;
+            display: block; 
+            margin: auto;
+            position: absolute;
+            top:44px;
+            left:30px;}
+  
+  h1{font-family: 'Noto Serif JP', serif;
+          font-size:9px;
+          color:#999999;
+          text-align:left;
+          margin-top:0px;
+          margin-bottom:0px;
+          margin-left:30px;
+          line-height: 20px;}
+          h5{font-family: 'Noto Serif JP', serif;
+            font-size: 10px;
+            color:#999999;
+            text-align:left;
+            margin-top:-50px;
+            margin-bottom:30px;
+       margin-left:35px;
+       line-height: 20px;}
+  
+  h2{font-family: 'Noto Serif JP', serif;
+          font-size: 0px;
+          color:#999999;
+          text-align:left;
+          margin-top:0px;
+          margin-bottom:0px;
+          margin-left:00px;}
+      
+  h3{font-family: 'Noto Serif JP', serif;
+          font-size: 0px;
+          color:#999999;
+          text-align:left;
+          margin-top:0px;
+          margin-bottom:0px;
+          margin-left:0px;} 
+          h6{font-family: 'Noto Serif JP', serif;
+            font-size: 0px;
+            color:#4d4d4d;
+            text-align:left;
+            margin-top:0px;
+            margin-bottom:0px;
+            margin-left:0px;} 
+  h4{font-family: 'Noto Serif JP', serif;
+          font-size: 10px;
+          color:#999999;
+          text-align:right;
+          margin-top:100px;
+          margin-bottom:50px;
+          margin-right:100px;}  
+  
+          .app {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+              }        
+  .header {
+          height: 100px;
+          background-color: white;
+          box-sizing: border-box;
+          border: 0px solid blue;
+          position: sticky;
+          top: 00px;
+             
+            }
+  
+  .main {
+          display: flex;
+          flex-direction: column;
+          flex-grow:1;
+            }
+  
+  .sidebar {
+          width: 00px;
+          height:00px;
+          background-color: white;
+          box-sizing: border-box;
+          border: 0px solid chocolate;
+          position: sticky;
+          top: 100px;
+            }
+            .sidebar2 {
+             width: 0px;
+             height:00px;
+             background-color: white;
+             box-sizing: border-box;
+             border: 0px solid chocolate;
+             position: sticky;
+             top: 100px;
+               }
+               .content {
+                background-color: white;
+                box-sizing: border-box;
+                border: 0px solid chocolate;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+              }
+    .flex-content {
+            flex-grow: 1;
+            background-color:white;
+            box-sizing: border-box;
+            border: 0px solid green;
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+              }
+   
+   .naka {
+           flex-grow: 1;
+           background-color:white;
+           box-sizing: border-box;
+           border: 0px solid rgb(58, 75, 174);
+           display: flex;
+           flex-direction: row;
+           
+           }
+#moji1{
+    width:80vw;
+    margin:auto;
+
+}
+   .photo{
+           flex-grow: 1;
+           background-color:white;
+           box-sizing: border-box;
+           border: 0px solid rgb(131, 44, 64);
+           display: flex;
+           flex-direction: column;
+           }
+  #zomushi{width: 40vw;
+      display: block; 
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+  
+  }
+  #gara2{width: 80vw;
+    display: block; 
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+ 
+  
+ }
+ 
